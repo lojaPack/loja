@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #23374d;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#topo{
+    width: 20px;
+    height: 20px;
+}
+#logo{
+    width: 160px;
+}
+
+.header{
+    background: #0085ff;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.carroseel{
+    margin-top: 15%;
+    max-width: 600px;
+    margin: auto;
+    background: rgba(255, 0, 0, 0);
+    padding: 10px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.285);
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    border-radius: 15px;
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /*=====================*/
+  #tTitulo{
+      text-align: center;
+      color: #ffffff;
+  }
+  .Tsub{
+      margin-top: -5px;
+  }
+
+  .flex{
+      max-width: 800px;
+      margin: auto;
+      /*background: red;*/
+
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .flex > div{
+      flex: 1 0 200px;
+      background: #ffffff;
+      margin: 10px;
+      padding: 5px;
+      text-align: center;
+      border-radius: 15px;
+      border: 1px solid rgba(0, 0, 0, 0.344);
+      transition: all 0.5s;
+      cursor: pointer;
+      filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  }
+  .flex > div:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.1);
+    z-index: 10;
+  }
+
+  .flex > div img{
+    width: 100px;
+    height: 100px;
+}
+
+.irPerfil h4{
+    background: #0085ff;
+    cursor: pointer;
+    padding: 5px;
+    color: #ffffff;
+    border-radius: 15px;
+    transition: all 0.5s;
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.447);
+}
+
+.irPerfil h4:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+
+  /*=====================*/
