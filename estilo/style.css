@@ -263,6 +263,27 @@ body{
     outline: 0;
   }
 
+  .sobre{
+      background: #ffffff;
+      max-width: 600px;
+      margin: auto;
+      padding: 8px;
+      border-radius: 15px;
+      box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.493);
+  }
+  .sobre h2{
+      text-align: center;
+  }
+
+  .apoioPago{
+      text-align: center;
+      border: 1px solid black;
+      margin: 10px;
+      border-radius: 15px;
+      cursor: pointer;
+  }
+
+
   footer{
       background: black;
       color: white;

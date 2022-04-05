@@ -44,6 +44,13 @@ var swiper = new Swiper(".mySwiper", {
   function plano(){
     alert('Não e possivel fazer esta operação no momento!')
   }
+
+  function sobre(){
+    location='sobre.html'
+  }
+  function voltaInicio(){
+    location='index.html'
+  }
   /*====== links ========*/
 
   /*====== Formulario ======*/
