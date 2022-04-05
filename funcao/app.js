@@ -51,6 +51,10 @@ var swiper = new Swiper(".mySwiper", {
   function voltaInicio(){
     location='index.html'
   }
+
+  function irLuana(){
+    location='https://lojapack.github.io/luana/'
+  }
   /*====== links ========*/
 
   /*====== Formulario ======*/
