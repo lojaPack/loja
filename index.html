@@ -46,16 +46,16 @@
     <section class="flex" id="flex">
 
         <div>
-            <img src="arquivos/icones/conta.png">
-            <h3>Nome modelo</h3>
+            <img src="arquivos/fotos-modelos/modelo01.png">
+            <h3>Lu_Sexy12</h3>
             <div class="irPerfil">
                 <h4>Ver perfil</h4>
             </div>
         </div>
 
         <div>
-            <img src="arquivos/icones/conta.png">
-            <h3>Nome modelo</h3>
+            <img src="arquivos/fotos-modelos/modelo02.png">
+            <h3>Ana Julia</h3>
             <div class="irPerfil">
                 <h4>Ver perfil</h4>
             </div>
@@ -111,14 +111,14 @@
             <img src="arquivos/icones/default.png">
 
             <div class="anun">
-                <p>Fazer anúncio grátis</p>
+                <p onclick="casdPlanoGrat()">Fazer anúncio grátis</p>
             </div>
 
-            <div class="anun">
+            <div onclick="plano()" class="anun">
                 <p>Fazer anúncio pago</p>
             </div>
 
-            <div class="anun">
+            <div onclick="plano()" class="anun">
                 <p>Contratar um plano</p>
             </div>
 
@@ -136,17 +136,34 @@
         <h1>Contos eróticos</h1>
         <p>Faça a leitura de contos eróticos reais, enviados por nossos modelos e por visitantes do site. </p>
 
-        <div class="anun">
+        <div onclick="contos()" class="anun">
             <p>Fazer leitura</p>
         </div>
 
     </div>
     <br><br>
 
+    <div class="contato" id="contato">
+        <div class="contato2">
+            <img src="arquivos/icones/Invite_perspective_matte.png">
+            <h2>Obrigado por nos escolher!</h2>
+            <p>O nosso sistema de cadastro e segurança está sendo construído, por esse motivo para anunciar o seu perfil aqui nós vamos entrar em contato com você pelo WhatsApp, basta digitar o seu nome e telefone.</p>
+            <input type="text" name="tNome" id="tNome" placeholder="Digite seu nome "> <br>
+            <input type="number" class="Ttel" name="tTel" id="tTel" placeholder="Telefone com DDD">
+
+            <div onclick="envioDados()" class="irPerfil">
+                <h4>Enviar</h4>
+            </div>
+
+            <a href="index.html">CANCELAR</a>
+
+        </div>
+    </div>
+
     <footer>
-        <p>Desenvolvido por Gage &copy; 2022</p>
+        <p onclick="gage()">Desenvolvido por Gage &copy; 2022</p>
         <p>Versão 1.0.0.0 BETA</p>
-        <p id="apoio">APOIE-ME</p>
+        <p onclick="apoio()" id="apoio">APOIE-ME</p>
     </footer>
 
 

@@ -217,11 +217,58 @@ body{
       filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
   }
 
+  .contato{
+    display: none;
+    background: rgba(0, 0, 0, 0.733);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+  }
+
+  .contato2{
+      background: #ffffff;
+      max-width: 500px;
+      margin: auto;
+      margin-top: 10%;
+      padding: 10px;
+      text-align: center;
+      border-radius: 15px;
+      filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  }
+
+  .contato2 img{
+      width: 100px;
+  }
+  #tNome{
+      border-radius: 15px;
+      padding: 5px;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin: 10px;
+      box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.493);
+      border: 1px solid rgba(0, 0, 0, 0.159);
+      outline: 0;
+  }
+  #tTel{
+    border-radius: 15px;
+    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 10px;
+    box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.493);
+    border: 1px solid rgba(0, 0, 0, 0.159);
+    outline: 0;
+  }
+
   footer{
       background: black;
       color: white;
       padding: 10px;
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-around;
   }
 
@@ -257,5 +304,9 @@ body{
         margin-top: 20%;
     }
 
-
+    .contato2{
+        width: auto;
+        margin: 15px;
+        margin-top: 20%;
+    }
   }
