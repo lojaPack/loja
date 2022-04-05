@@ -14,3 +14,11 @@ var swiper = new Swiper(".mySwiper", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+  function chamaAnun(){
+    loja.style.display='block'
+  }
+
+  function fechaAnun(){
+    loja.style.display='none'
+  }

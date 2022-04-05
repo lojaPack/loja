@@ -13,7 +13,7 @@
     <header class="header" id="header">
         <img id="topo" src="arquivos/icones/lar.png">
         <img id="logo"  src="arquivos/icones/profile.png">
-        <img id="topo"  src="arquivos/icones/seguindo.png">
+        <img onclick="chamaAnun()" id="topo"  src="arquivos/icones/seguindo.png">
     </header> <br><br> <br>
 
     <div class="carroseel">
@@ -103,9 +103,51 @@
 
     </section> <br> <br> <br>
 
-    <div class="loja">
-        
+    <div class="loja" id="loja">
+        <div class="loja2">
+
+            <div onclick="fechaAnun()" class="fecha">x</div>
+
+            <img src="arquivos/icones/default.png">
+
+            <div class="anun">
+                <p>Fazer anúncio grátis</p>
+            </div>
+
+            <div class="anun">
+                <p>Fazer anúncio pago</p>
+            </div>
+
+            <div class="anun">
+                <p>Contratar um plano</p>
+            </div>
+
+        </div>
     </div>
+
+    <div onclick="chamaAnun()" class="anunciar">
+        <img src="arquivos/icones/logoloja.png">
+        <h4>Anuncie os seus conteúdos aqui e gratuito!</h4>
+    </div>
+    <br><br>
+
+    <div class="conto">
+
+        <h1>Contos eróticos</h1>
+        <p>Faça a leitura de contos eróticos reais, enviados por nossos modelos e por visitantes do site. </p>
+
+        <div class="anun">
+            <p>Fazer leitura</p>
+        </div>
+
+    </div>
+    <br><br>
+
+    <footer>
+        <p>Desenvolvido por Gage &copy; 2022</p>
+        <p>Versão 1.0.0.0 BETA</p>
+        <p id="apoio">APOIE-ME</p>
+    </footer>
 
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>

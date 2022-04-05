@@ -10,13 +10,14 @@ body{
 #topo{
     width: 20px;
     height: 20px;
+    cursor: pointer;
 }
 #logo{
     width: 160px;
 }
 
 .header{
-    background: #0085ff;
+    background: #0084ff73;
     display: flex;
     justify-content: space-around;
     padding: 5px;
@@ -129,6 +130,132 @@ body{
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
+  /*=====================*/
 
+  .loja{
+      display: none;
+     background: rgba(0, 0, 0, 0.733);
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     z-index: 20;
+  }
+
+  .loja2 img{
+    width: 200px;
+    margin-bottom: -5px;
+  }
+
+  .loja2{
+      background: white;
+      width: 400px;
+      /*height: 350px;*/
+      margin: auto;
+      padding-bottom: 10px;
+      margin-top: 10%;
+      text-align: center;
+      filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+      border-radius: 15px;
+  }
+
+  .anun p{
+      border: 1px solid black;
+      margin: 10px;
+      padding: 5px;
+      border-radius: 15px;
+      cursor: pointer;
+      transition: all 0.5s;
+  }
+  .anun p:hover{
+      background: black;
+      color: white;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  }
+
+  .fecha{
+      text-align: right;
+      margin: 10px;
+      cursor: pointer;
+  }
 
   /*=====================*/
+
+  .anunciar img{
+      width: 200px;
+  }
+
+  .anunciar{
+      max-width: 600px;
+      margin: auto;
+      padding: 10px;
+      border-radius: 15px;
+      text-align: center;
+      color: white;
+      cursor: pointer;
+      filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+
+      background-image: linear-gradient(  to bottom right,
+      #4affde 0%, #5b9dff 40%, #0085ff 60%, #23374d 100% );
+      background-size: 200% 200%;
+      animation: movigGradient 5s linear infinite alternate;
+  }
+  @keyframes movigGradient {
+      from{background-position: 0 0;}
+      to {background-position: 100% 100%;}
+  }
+
+  .conto{
+      max-width: 600px;
+      margin: auto;
+      padding: 10px;
+      border-radius: 15px;
+      background: white;
+      text-align: center;
+      filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  }
+
+  footer{
+      background: black;
+      color: white;
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+  }
+
+  footer p{
+      cursor: pointer;
+  }
+
+  #apoio{
+      border: 1px solid #ffffff;
+      border-radius: 15px;
+      padding: 10px;
+  }
+
+  /*=====================*/
+
+  @media(max-width: 600px){
+
+    .anunciar{
+        width: auto;
+        margin: 10px;
+    }
+    .anunciar img{
+        width: 150px;
+    }
+    .conto{
+        width: auto;
+        margin: 10px;
+    }
+
+    .loja2{
+        width: auto;
+        margin: 15px;
+        margin-top: 20%;
+    }
+
+
+  }
