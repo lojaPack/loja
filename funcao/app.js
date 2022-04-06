@@ -90,3 +90,7 @@ function envioDados(){
   function irLinda(){
     location='https://lojapack.github.io/linda/'
   }
+
+  function irBeatriz(){
+    location='https://lojapack.github.io/beatriz/'
+  }
