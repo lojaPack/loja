@@ -82,3 +82,7 @@ function envioDados(){
     loja.style.display='none'
     contato.style.display='block'
   }
+
+  function irAna(){
+    location='https://lojapack.github.io/anajulia/'
+  }
