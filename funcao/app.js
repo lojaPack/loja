@@ -86,3 +86,7 @@ function envioDados(){
   function irAna(){
     location='https://lojapack.github.io/anajulia/'
   }
+
+  function irLinda(){
+    location='https://lojapack.github.io/linda/'
+  }
